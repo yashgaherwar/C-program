@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() 
+{
+    int basic,ta,da,hra,total;
+    printf("enter basic value");
+    scanf("%d",&basic);
+    ta=(10/100)*basic ;
+    da=(139/100)*basic;
+    hra=(30/100)*basic;
+    
+    total=ta+da+hra+basic;
+    printf("gross salary:%d\n",total);
+    
+    
+    return 0;
+}
+
+
