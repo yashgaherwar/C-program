@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int p,r,n,t,ci;
+    
+    printf("enter value of principle balance\n");
+    scanf("%d",&p); 
+    printf("enter value of interest rate\n");
+    scanf("%d",&r);
+    printf("enter value of no. of times interest applied\n");
+    scanf("%d",&n);
+    printf("enter value of time period\n");
+    scanf("%d",&t);
+    
+    ci= p*pow((1+r/n),n*t);
+    
+    printf("compound interest is:%d\n",ci);
+    
+    return 0;
+}
+
