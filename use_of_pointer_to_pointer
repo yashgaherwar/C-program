@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{
+  int i=5;
+  int*ip;
+  int**iip;
+  ip=&i;
+  iip=&ip;
+  
+  printf("%d\n",i);
+   printf("%d\n",*ip);
+    printf("%d\n",**iip);
+  
+    return 0;
+}
