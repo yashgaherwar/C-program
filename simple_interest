@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int p,r,t,si;
+    printf("enter value of principle\n");
+    scanf("%d",&p);
+    printf("enter value of rate\n");
+    scanf("%d",&r);
+    printf("enter value of time\n");
+    scanf("%d",&t);
+    
+    si=(p*r*t)/100;
+    
+    printf("value of simple interest:%d\n",si);
+    
+    return 0;
+}
