@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    float a,b,add,sub,multi;
+    float div;
+    printf("enter two numbers\n");
+    scanf("%f%f",&a,&b);
+    
+    add=(a+b);
+    sub=(a-b);
+    multi=(a*b);
+    div=(a/b);
+    
+    
+    printf("value of first three operations:%f\n%f\n%f\n",add,sub,multi);
+    printf("value of division:%f\n ",div);
+   
+    
+    
+    return 0;
+}
+
+
